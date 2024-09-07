@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>My Web Site</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <script src="JS/funciones.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+        /* CSS para controlar el comportamiento de zoom táctil */
+        html {
+            touch-action: pan-x pan-y;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <img class="logo" src="ICONS/logo.png" alt="Logo">
+
+            <nav>
+                <ul>
+                    <li id="home"><a href=""><strong>Home</strong></a></li>
+                    <li class="links"><a href="">About Me</a></li>
+                    <li class="links"><a href="">Portfolio</a></li>
+                    <li class="links"><a href="">Skills</a></li>
+                    <li class="links"><a href="">Career</a></li>
+                    <li class="links"><a href="">Certificates</a></li>
+                    <li class="links"><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <img src="IMG/foto1.png" id="foto" alt="Profile Picture">
+
+    <div class="text">
+        <h2 id="saludo">👋 Greetings!</h2>
+        <h1 id="nombre">Emil <br> Echavarria</h1>
+        <p id="area1">Front-end Developer . UI designer</p>
+    </div>
+
+    <div id="container-all">
+        <div class="container1">
+            <a id="cv" href="cv.pdf" download>Click CV <img src="ICONS/descarga.png" alt="Descargar"></a>
+
+            <nav>
+                <ul class="nav-links">
+                    <a id="whatsapptext" href="https://wa.me/8296272628" target="_blank" rel="noopener noreferrer">
+                        <button id="whatsapp">
+                            <img id="whatsappimg" src="ICONS/WhatsappLogo.png" alt="WhatsApp">
+                            <span id="whatsapptext">WhatsApp</span>
+                        </button>
+                    </a>
+
+
+
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container2">
+            <ul class="nav-links">
+                <a class="buttons" href="https://www.linkedin.com/in/emil-echavarria/"><img
+                        src="ICONS/linkedin.png"></a>
+                <a class="buttons" href="https://github.com/EmilEchavarria"><img src="ICONS/github.png"></a>
+                <a class="buttons" href="https://www.behance.net/emileciprin"><img src="ICONS/behance.png"></a>
+                <a class="buttons" href="https://www.threads.net/@emilechavarria.c?hl=es-la"><img
+                        src="ICONS/theards.png"></a>
+                <a class="buttons" href="https://www.instagram.com/emilechavarria.c/"><img src="ICONS/vector1.png"></a>
+                <a class="buttons" href="https://www.youtube.com/@emil_echavarria5084"><img src="ICONS/youtube.png"></a>
+
+
+            </ul>
+        </div>
+    </div>
+
+
+
+    <section class="ExperienceSection ">
+
+
+
+    </section>
+
+    <div id="big-box">
+        <div class="text-box" id="box1">
+            <img src="ICONS/programmer.png" alt="">
+            <p>Programmer</p>
+        </div>
+
+        <div class="text-box" id="box2">
+            <img src="ICONS/ProjectsIcon.png" alt="">
+            <p>Works</p>
+        </div>
+
+        <div class="text-box" id="box3">
+            <img src="ICONS/DesignIcon.png" alt="">
+            <p>Designer</p>
+        </div>
+
+        <div id="area">
+
+            <div id="front-end">
+                <p class="text2" id="work-area"> Area</p>
+                <h1 class="text2" id="front-end"> Front-end</h1>
+            </div>
+
+            <div id="experiences">
+                <p class="text2" id="projects">Multiple Projects</p>
+                <h1 class="text2" id="experiences"> Experiences</h1>
+            </div>
+
+
+            <p class="text2" id="freelancer">Designer Freelancer</p>
+            <h1 class="text2" id="ui-ux"> UI · UX</h1>
+
+        </div>
+    </div>
+
+
+    <section id="about-me">
+
+        <img src="IMG/myphoto.jpeg" id="photo" alt="">
+
+        <div class="text-about-me">
+            <div class="about-me">
+                <h2>About Me</h2>
+            </div>
+            <h1>Juan Emil Echavarria Ciprian</h1>
+            <p>👋 Hi, I’m Juan Emil Echavarria, but you can call me Emil. Pleased to meet you!</p>
+            <p>👨‍💻 I am a software development student working on various projects and practicing with JavaScript,
+                React JS, and TypeScript.</p>
+            <p>🎓 Software development student at the Technological Institute of the Americas.</p>
+            <p>💡💡 Interests in Front-end development with React, React Native, VueJS, and UX/UI Design.</p>
+            <p>🚀 Looking to learn and improve every day, seeking to acquire new skills.</p>
+        </div>
+
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Move.it</h3>
+              <p>Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.</p>
+            </div>
+            <div class="project-tags">
+              <span class="tag online">Online</span>
+              <span class="tag typescript">Typescript</span>
+            </div>
+            <div class="project-image">
+              <img src="ICONS/github.png" alt="Move.it Project">
+            </div>
+          </div>
+      
+          <div class="project-card">
+            <div class="project-header">
+              <h3>My Portfolio</h3>
+              <p>Portfolio personal desarrollado con HTML, CSS y JavaScript. Responsive y optimizado para SEO.</p>
+            </div>
+            <div class="project-tags">
+              <span class="tag react">React</span>
+              <span class="tag javascript">JavaScript</span>
+            </div>
+            <div class="project-image">
+              <img src="ICONS/github.png" alt="My Portfolio">
+            </div>
+          </div>
+      
+          <div class="project-card">
+            <div class="project-header">
+              <h3>E-commerce Site</h3>
+              <p>Plataforma de comercio electrónico construida con Next.js y Stripe para pagos.</p>
+            </div>
+            <div class="project-tags">
+              <span class="tag nextjs">Next.js</span>
+              <span class="tag stripe">Stripe</span>
+            </div>
+            <div class="project-image">
+              <img src="ICONS/github.png" alt="E-commerce Site">
+            </div>
+          </div>
+      
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Task Manager App</h3>
+              <p>Aplicación de gestión de tareas con autenticación y backend en Firebase.</p>
+            </div>
+            <div class="project-tags">
+              <span class="tag firebase">Firebase</span>
+              <span class="tag react">React</span>
+            </div>
+            <div class="project-image">
+              <img src="ICONS/github.png" alt="Task Manager App">
+            </div>
+          </div>
+          
+          <!-- Puedes agregar más proyectos duplicando este bloque -->
+        </div>
+      </section>
+      
+      
+</body>
+
+
+
+</html>
